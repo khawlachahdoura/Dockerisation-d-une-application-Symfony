@@ -5,7 +5,7 @@ Docker + Symfony 5 +php 7.4 +Nginx + Mysql
 Installation
 1- Cloné le projet avec git clone https://github.com/khawlachahdoura/Dockerisation-d-une-application-Symfony.git
 
-(posissionnez sur la branche :appsymfony) : git checkout appsymfony
+(positionnez sur la branche :appsymfony) : git checkout appsymfony
 
 2-passer la commande : docker-compose up -d --build ( vous devez avoir docker et docker compose déjà installé )
 
