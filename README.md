@@ -1,6 +1,7 @@
 # Dockerisation-d-une-application-Symfony
 c'est l'application Gestion IT qui ce trouve dans le dossier symfony dans la branche appsymfony 
-###pour utiliser l'application 
+
+
 Prérequi
 *Prérequis sur votre machine pour le bon fonctionnement de ce projet :
 
@@ -12,7 +13,7 @@ Prérequi
  *Installation
 Après avoir cloné le projet avec git clone https://github.com/khawlachahdoura/Dockerisation-d-une-application-Symfony.git
 
-Exécutez la commande cd myp_symfony pour vous rendre dans le dossier depuis le terminal.
+
 
 Ensuite, dans l'ordre taper les commandes dans votre terminal :
 
