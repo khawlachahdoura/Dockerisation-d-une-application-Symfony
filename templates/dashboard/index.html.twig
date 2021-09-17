@@ -1,0 +1,76 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block body %}
+
+    <div class="page-wrapper">
+        <div class="page-header">
+            <div class="page-header-title">
+                <h4>Dashboard</h4>
+            </div>
+            <div class="page-header-breadcrumb">
+                <ul class="breadcrumb-title">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">
+                            <i class="icofont icofont-home"></i>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item"><a href="#!">Pages</a>
+                    </li>
+                    <li class="breadcrumb-item"><a href="#!">Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="page-body">
+            <div class="row">
+                <div class="col-md-12 col-xl-4">
+                    <!-- table card start -->
+                    
+                    <!-- table card end -->
+                </div>
+                <div class="col-md-12 col-xl-4">
+                    <!-- table card start -->
+                   
+                    <!-- table card end -->
+                </div>
+                <div class="col-md-12 col-xl-4">
+                    <!-- widget primary card start -->
+                    <div class="card table-card widget-primary-card">
+                        <div class="">
+                            <div class="row-table">
+                                <div class="col-sm-3 card-block-big">
+                                    <i class="icofont icofont-star"></i>
+                                </div>
+                                <div class="col-sm-9">
+                                    <h4>{{certificatesrenwb}} +</h4>
+                                    <a href="{{ path('certificates_showcertif') }}"> <h6>Certificates to be renewable</h6></a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- widget primary card end -->
+                    <!-- widget-success-card start -->
+                    <div class="card table-card widget-success-card">
+                        <div class="">
+                            <div class="row-table">
+                                <div class="col-sm-3 card-block-big">
+                                    <i class="icofont icofont-trophy-alt"></i>
+                                </div>
+                                <div class="col-sm-9">
+                                    <h4>{{certificates}}</h4>
+                                     <a href="{{ path('certificates_showcertif') }}"> <h6>Certificates </h6></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- widget-success-card end -->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
